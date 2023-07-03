@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get "showuser/:id", to:"users#show"
   put "updateuser/:id", to:"users#update"
   delete "deleteuser/:id", to:"users#destroy"
+  get "searchuser/:search", to:"users#search"
 end
